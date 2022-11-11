@@ -56,20 +56,33 @@
             </tr>
         </tfoot>
     </table>
-    
+
     <h1>Список команд Git</h1>
     <p>git status
-        git add .(додає на локальний сервер усі файли у директорії)
-        git add gallery.html
-        git commit - m 'add-index.html' 
-        git push 
-        git add gallery.html
-        git commit - m 'add-gallery.html' 
-        git push
-        git add /image
+        git add .                           (додає на локальний сервер усі файли у директорії)
+        git add gallery.html                (додає файл)
+        git commit - m 'add-index.html'     (додає локфльниий  commit)
+        git push                            (додає файл до GitHab)
+        git add gallery.html                (додає файл)
+        git commit - m 'add-gallery.html'   (додає локфльниий  commit)
+        git push                            (додає файл до GitHab)
+        git add /image                      (додає файли)
+        git commit - m 'add-image'          (додає локфльниий  commit)
+        git push                            (додає файл до GitHab)
+        git branch                          (показує фактичну гілку )
+        git switch -c add-conn-image 
+        git push --set-upstream origin add-conn-image
+        git add .
         git commit - m 'add-image' 
-        git push
-        git branch
+        git push --set-upstream origin 'main'
+        git checkout                        ( перемикання між гілками)
+        git statusgit restore --staged galery.html
+        git checkout -b add-conn-image      (перемикання між гіками)
+        git checkout -b main                (перемикання між гіками)
+        git checkout -b 'main'              (перемикання між гіками)
+        git branch                          (знаходженния на локальній гілці)
+
+
     </p>
 </body>
 
